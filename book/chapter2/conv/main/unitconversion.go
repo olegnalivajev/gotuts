@@ -1,5 +1,5 @@
-// program that takes numbers as cmd arguments and prints aout various unit conversions with the numbers.
-// if no cmd arguments are present, cmd standard input is used to promt user for numbers
+// takes range of numbers as cmd arguments. prints various unit conversions with these numbers
+// if no cmd arguments are present, cmd standard input is used to promt user for input
 package main
 
 import (
