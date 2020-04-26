@@ -1,3 +1,5 @@
+// fetches several URLs concurrently. prints how long it took to fetch each one.
+// prints how long the program took in total
 package main
 
 import (

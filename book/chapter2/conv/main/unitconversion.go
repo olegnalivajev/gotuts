@@ -1,3 +1,5 @@
+// program that takes numbers as cmd arguments and prints aout various unit conversions with the numbers.
+// if no cmd arguments are present, cmd standard input is used to promt user for numbers
 package main
 
 import (
@@ -31,6 +33,7 @@ func main()  {
 		}
 	}
 }
+
 func printConversions(val float64) {
 	fmt.Printf("%s = %s\n", conv.Centimeter(val), conv.CmToM(conv.Centimeter(val)))
 	fmt.Printf("%s = %s\n", conv.Meter(val), conv.MToKm(conv.Meter(val)))

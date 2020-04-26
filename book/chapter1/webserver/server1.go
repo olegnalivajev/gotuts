@@ -1,8 +1,10 @@
+// a simple web server with 2 resources - '/count' which counts number of website hits and '/liss' which
+// prints out a gif with a lissajous. '/liss' resource take 3 query params - cycles, size and delay.
 package main
 
 import (
 	"fmt"
-	"github.com/olegnalivajev/gotuts/book_chapter1/lissajous"
+	"github.com/olegnalivajev/gotuts/book/chapter1/lissajous"
 	"log"
 	"net/http"
 	"strconv"

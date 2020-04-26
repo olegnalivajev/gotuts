@@ -1,3 +1,5 @@
+// counts number of duplicate words across the files or standard input.
+// prints names of those file containing duplicates.
 package main
 
 import (
