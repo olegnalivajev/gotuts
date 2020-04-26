@@ -7,3 +7,9 @@ func BenchmarkPopCount(b *testing.B) {
 		popCount(2452345234523342345)
 	}
 }
+
+func BenchmarkPopCountLoop(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		popCount(2452345234523342345)
+	}
+}
