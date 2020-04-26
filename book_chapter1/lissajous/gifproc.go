@@ -12,7 +12,7 @@ import (
 var palette = []color.Color{color.White, color.RGBA{0, 128, 0, 1},
 	color.RGBA{255,0,0,1}, color.RGBA{255,255,0,1}}
 
-func lissajous(out io.Writer, c, s, d int) {
+func Lissajous(out io.Writer, c, s, d int) {
 	cycles := c // number of complete x oscillator revolutions
 	size := s // image canvas covers [-size..+size]
 	delay := d // delay between frames in 10ms units

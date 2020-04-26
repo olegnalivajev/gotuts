@@ -2,13 +2,8 @@ package main
 
 import (
 	"fmt"
-	"image"
-	"image/color"
-	"image/gif"
-	"io"
+	"github.com/olegnalivajev/gotuts/book_chapter1/lissajous"
 	"log"
-	"math"
-	"math/rand"
 	"net/http"
 	"strconv"
 	"sync"
@@ -65,5 +60,5 @@ func liss(w http.ResponseWriter, r *http.Request)  {
 		case "delay": delay, _ = strconv.Atoi(v[0])
 		}
 	}
-	lissajous(w, cycles, size, delay)
+	lissajous.Lissajous(w, cycles, size, delay)
 }
