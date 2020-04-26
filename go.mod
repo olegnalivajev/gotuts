@@ -1,3 +1,3 @@
-module github.com/olegnalivajev/gotuts
+module github.com/olegnalivajev/learning_go
 
 go 1.14
