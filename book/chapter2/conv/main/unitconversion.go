@@ -5,7 +5,7 @@ package main
 import (
 	"bufio"
 	"fmt"
-	"github.com/olegnalivajev/gotuts/book_chapter2/conv"
+	"github.com/olegnalivajev/gotuts/book/chapter2/conv"
 	"os"
 	"strconv"
 	"strings"
